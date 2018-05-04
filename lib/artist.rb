@@ -26,5 +26,6 @@ class Artist
     self.songs.each do |song|
       total += 1
     end
+    total
   end
 end
